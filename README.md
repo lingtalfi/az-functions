@@ -5,11 +5,13 @@ Az functions
 
 
 Those are debug functions for lazy and impatient people like me.
+
 They are var_dump based, but they tend to enhance the visual output (depending on whether or not you use xdebug, and depending 
 on whether or not you are inside a cli environment), and they accept multiple arguments too.
 
 
 a() is the equivalent of the var_dump() function (but is faster to type in the long run).
+
 az() is the equivalent of the var_dump() function followed by an exit statement (useful for clearing the mess that sometimes makes it
 hard to spot the debug string).
 
